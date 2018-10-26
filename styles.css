@@ -1,0 +1,16 @@
+.fluid-row{
+    text-align:center;
+}
+
+.grid-container{
+    display: grid;
+    grid: repeat(16, auto) / repeat(16, auto);
+    height: 400px;
+    margin: auto;
+    width: 400px;
+}
+
+.grid-container div{
+    background-color: lightgray;
+    border: 1px solid black;
+}
