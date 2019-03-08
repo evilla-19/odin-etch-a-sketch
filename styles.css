@@ -1,16 +1,28 @@
+
+
+
 .fluid-row{
     text-align:center;
 }
 
+h1 {
+    margin-top: 5%;
+}
+
 .grid-container{
     display: grid;
-    grid: repeat(16, auto) / repeat(16, auto);
-    height: 400px;
+    height: 500px;
     margin: auto;
-    width: 400px;
+    width: 500px;
+    border: 20px solid darkred;
 }
 
 .grid-container div{
-    background-color: lightgray;
+    background-color: rgb(240, 239, 239);
     border: 1px solid black;
 }
+
+.clear, .rainbow {
+    margin-bottom: 2%;
+}
+
